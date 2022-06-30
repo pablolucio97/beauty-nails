@@ -166,6 +166,19 @@ export const GlobalStyle = createGlobalStyle`
     }
   }  
 
+  .staffCard{
+    & h3 {
+      color:  ${({ theme }) => theme.colors.primary};
+      text-align: center;
+      margin: -16px auto 0;
+    }
+    & span {
+      color:  ${({ theme }) => theme.colors.black500};
+      text-align: center;
+      margin: 8px auto -40px;
+    }
+  }
+
   //REACT-RESPONSIVE-CARROUSEL-CUSTOM -DOTS
    .carousel .control-dots .dot {
       -webkit-transition: opacity 0.25s ease-in;

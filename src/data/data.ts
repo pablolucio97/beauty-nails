@@ -1,49 +1,45 @@
 export const testimonials = [
   {
-    url: "/image_seeds/warrant_seal1.png",
-    name: "Lorena Santos",
-    role: "Designer",
+    url: "/images/nails1.jpg",
+    name: "Roberta",
     ratings: 5,
     testimonial:
-      "Os treinos são sensacionais, estou treinando em casa desde o inicio da quarentena, e estou adorando!",
+      "Sempre trabalhei com  as meninas do Beauty Nails  e sempre obtive excelentes resultados.",
   },
   {
-    url: "/image_seeds/warrant_seal2.png",
-    name: "Marcela de Oliveira",
-    role: "Full-stack developer",
+    url: "/images/nails2.jpg",
+    name: "Janete",
     ratings: 4,
     testimonial:
-      "Seus treinos fizeram muita diferença no meu corpo e na minha saúde mental nessa Pandemia!",
+      "Unhas impecáveis. Trabalho maravilhoso sempre.",
   },
   {
-    url: "/image_seeds/warrant_seal3.png",
-    name: "Márcio José",
-    role: "Front-end developer",
+    url: "/images/nails3.jpg",
+    name: "Alícia",
     ratings: 5,
     testimonial:
-      "Os treinos são sensacionais, estou treinando em casa desde o inicio da quarentena, e estou adorando!",
+      "Não vou a outro stúdio. Atendimento sem igual e unhas perfeitas!",
   }
 ];
 
-export const faqData = [
+export const staff = [
   {
-    title: "O acesso é vitalício?",
-    content: "Sim. O acesso ao treinamento é vitalício.",
+    url: "/images/person1.jpg",
+    name: "Alícia Gomes",
+    testimonial:
+      "Manicure e pedicure especializada em aplicação de alongamento de unhas.",
   },
   {
-    title: "De onde posso acessar o treinamento?",
-    content: "Você pode acessar o treinamento de qualquer dispositivo com conexão com a internet.",
+    url: "/images/person2.jpg",
+    name: "Raquel Miranda",
+    testimonial:
+      "Manicure especializada em blindagem de unhas.",
   },
   {
-    title: "Vou ter suporte para dúvidas?",
-    content: "Sim. Você tera direito a suporte de segunda à sexta, exceto feriados.",
-  },
-  {
-    title: "Existe um grupo de apoio?",
-    content: "Sim. Ao adquirir o treinamento, você terá livre acesso ao nosso grupo do Whatsapp.",
-  },
-  {
-    title: "Posso pedir reembolso?",
-    content: "Sim. Caso você não goste do treinamento por qualquer motivo, você tem 7 dias úteis para pedir reembolso.",
-  },
+    url: "/images/person3.jpg",
+    name: "Grabriele Nascimento",
+    testimonial:
+      "Manicure e pedicure especializada na reparação de unhas.",
+  }
 ];
+

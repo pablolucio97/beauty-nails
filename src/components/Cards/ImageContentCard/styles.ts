@@ -37,7 +37,7 @@ export const Title = styled.h3`
   }
 `
 
-export const Text = styled.div`
+export const Text = styled.span`
   font-size: ${({ theme }) => theme.sizes.medium};
   font-weight: 300;
   text-align: justify;
