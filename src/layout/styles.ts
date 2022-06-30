@@ -20,7 +20,8 @@ export const Container = styled.div`
   & .animatedTopScroll {
     right: 24px;
     transition: all 0.3s ease;
-    background-color: ${({ theme }) => theme.colors.secondary};
+    background-color: ${({ theme }) => theme.colors.primary_light};
+    color: ${({ theme }) => theme.colors.black500};
   }
   
   & .normalTopScroll {

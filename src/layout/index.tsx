@@ -22,8 +22,9 @@ import { TopScrollButton } from '../components/Elements/TopScrollButton';
 import { Text } from '../components/Typography/Text';
 import { Container } from './styles';
 
-import {NextProgressComponent} from '../components/Next/NextProgress'
+import { NextProgressComponent } from '../components/Next/NextProgress'
 import { WhatsappButton } from '../components/Elements/WhatsappButton';
+import { FooterThirdSection } from '../components/Elements/Footer/FooterThirdSection';
 
 interface LayoutProps {
     children: ReactNode;
@@ -106,6 +107,11 @@ export default function Layout({ children }: LayoutProps) {
                             onClick={handleToggleDrawer}
                         />
                         <HeaderLink
+                            content='Serviços'
+                            url='/servicos'
+                            onClick={handleToggleDrawer}
+                        />
+                        <HeaderLink
                             content='Equipe'
                             url='/equipe'
                             onClick={handleToggleDrawer}
@@ -132,6 +138,11 @@ export default function Layout({ children }: LayoutProps) {
                         url='/'
                     />
                     <HeaderLink
+                        content='Serviços'
+                        url='/servicos'
+                        onClick={handleToggleDrawer}
+                    />
+                    <HeaderLink
                         content='Equipe'
                         url='/equipe'
                     />
@@ -149,7 +160,11 @@ export default function Layout({ children }: LayoutProps) {
             >
                 <FooterFirstSection>
                     <FooterTitle
-                        content='Sobre nós'
+                        content='Acesso rápido'
+                    />
+                    <FooterLink
+                        content='Serviços'
+                        url='/servicos'
                     />
                     <FooterLink
                         content='Equipe'
