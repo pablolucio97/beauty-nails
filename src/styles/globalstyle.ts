@@ -1,3 +1,4 @@
+import { WhatsappButton } from './../components/Cards/ContactCard/styles';
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
@@ -152,6 +153,10 @@ export const GlobalStyle = createGlobalStyle`
      ${({ theme }) => theme.colors.secondary});
   }
 
+  .whatsappButton{
+    background-color: #25d366;
+    color: ${({ theme }) => theme.colors.white100};
+  }
     //ANIMATED VIDEO AS BACKGORUND 
   .videoBackground{
     position: absolute;
@@ -165,6 +170,13 @@ export const GlobalStyle = createGlobalStyle`
       min-height: 50%;
     }
   }  
+
+  .socialContactIcons{
+    width: 24px;
+    height: 24px;
+    color: ${(props) => props.theme.colors.primary_light};
+    margin-right: 8px;
+  }
 
   .staffCard{
     & h3 {

@@ -91,7 +91,7 @@ export default function Layout({ children }: LayoutProps) {
                 whatsappContact='31985187963'
             />
             <Header
-                className={headerAnimation ? 'headerScrolling' : 'headerNotScrolling'}
+                className={headerAnimation ? 'headerScrolling glassEffect' : 'headerNotScrolling'}
             >
                 {toggleDrawer &&
                     <Drawer

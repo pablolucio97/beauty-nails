@@ -38,4 +38,12 @@ export const Container = styled.div`
   &  .rgbBackground{
     background: linear-gradient('right-to-left', 'cyan', 'red');
   }
+
+  &  .glassEffect {
+    backdrop-filter: blur(8px) saturate(120%);
+    -webkit-backdrop-filter: blur(8px) saturate(120%);
+    background-color: rgba(17, 25, 40, 0.54);
+    transition: all 1s ease;
+  }
+
 `;

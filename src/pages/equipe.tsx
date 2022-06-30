@@ -16,7 +16,7 @@ import {
 } from '../styles/equipe'
 
 
-const Home: NextPage = () => {
+const Equipe: NextPage = () => {
     return (
         <Container>
             <Head>
@@ -57,4 +57,4 @@ const Home: NextPage = () => {
     )
 }
 
-export default Home
+export default Equipe
