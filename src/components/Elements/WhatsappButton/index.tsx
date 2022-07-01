@@ -1,4 +1,4 @@
-import React, { CSSProperties, ReactNode } from 'react';
+import React, { CSSProperties } from 'react';
 import { Button } from './styles'
 import { BsWhatsapp } from 'react-icons/bs'
 
@@ -33,10 +33,7 @@ export function WhatsappButton({
             className={className}
             aria-label={ariaLabel}
         >
-            <BsWhatsapp
-
-            />
-            
+            <BsWhatsapp/>
         </Button>
     )
 }

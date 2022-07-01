@@ -5,10 +5,6 @@ import { FiFacebook, FiInstagram, FiLinkedin } from 'react-icons/fi'
 import { SubTitle } from '../components/Typography/SubTitle'
 import { Container } from '../layout/styles'
 import {
-    BannerSection,
-    BannerSectionContainer
-} from '../styles'
-import {
     ContactSection,
     ContactSectionAddressContainer,
     ContactSectionContactContainer,
@@ -25,9 +21,9 @@ import { GoogleMap } from '../components/Elements/GoogleMap'
 import { Text } from '../components/Typography/Text'
 import { Title } from '../components/Typography/Title'
 
-import { googleMapAddress } from '../data/data'
-import { PrimaryButton } from '../components/Elements/PrimaryButton'
 import { MdCall } from 'react-icons/md'
+import { PrimaryButton } from '../components/Elements/PrimaryButton'
+import { googleMapAddress } from '../data/data'
 
 const Contato: NextPage = () => {
 
@@ -44,7 +40,7 @@ const Contato: NextPage = () => {
                 <meta name="description" content="Landing pages de alta conversão e sites profissionais" />
                 <meta name="keywords" content="pablosilvadev pablo silva psd landing pages site institucional profissional " />
                 <meta name='author' content='Pablo Silva' />
-                <meta name="theme-color" content="#000000" />
+                <meta name="theme-color" content="#FF49C1" />
             </Head>
             <ContactSection>
                 <ContactSectionContainer>

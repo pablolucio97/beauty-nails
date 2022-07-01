@@ -1,4 +1,3 @@
-import { WhatsappButton } from './../components/Cards/ContactCard/styles';
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`

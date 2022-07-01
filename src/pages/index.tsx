@@ -1,5 +1,4 @@
 import type { NextPage } from 'next'
-import dynamic from 'next/dynamic'
 import Head from 'next/head'
 import { NextImage } from '../components/Next/NextImage'
 
@@ -27,13 +26,12 @@ import { TestimonialCard } from '../components/Cards/TestimonialCard'
 import { Text } from '../components/Typography/Text'
 import { Title } from '../components/Typography/Title'
 
-import { testimonials } from '../data/data'
-import { NextLink } from '../components/Next/NextLink'
-import { SubTitle } from '../components/Typography/SubTitle'
-import { PrimaryButton } from '../components/Elements/PrimaryButton'
 import { MdCall } from 'react-icons/md'
-import { GradientText } from '../components/Typography/GradientText'
 import { useTheme } from 'styled-components'
+import { PrimaryButton } from '../components/Elements/PrimaryButton'
+import { NextLink } from '../components/Next/NextLink'
+import { GradientText } from '../components/Typography/GradientText'
+import { testimonials } from '../data/data'
 
 
 const Home: NextPage = () => {
@@ -47,13 +45,13 @@ const Home: NextPage = () => {
   return (
     <Container>
       <Head>
-        <title>Danilo Fotografias | Home</title>
+        <title>Studio Beauty Nails | Home</title>
         {/* @ts-ignore */}
         <meta charset="UTF-8" />
         <meta name="description" content="Landing pages de alta conversão e sites profissionais" />
         <meta name="keywords" content="pablosilvadev pablo silva psd landing pages site institucional profissional " />
         <meta name='author' content='Pablo Silva' />
-        <meta name="theme-color" content="#000000" />
+        <meta name="theme-color" content="#FF49C1" />
       </Head>
       <BannerSection id='home'>
         <BannerSectionContainer>
