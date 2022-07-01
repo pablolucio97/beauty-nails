@@ -64,7 +64,6 @@ const Home: NextPage = () => {
             />
             <Text
               content='Seus pés e mãos sempre bem cuidados!'
-              style={{ color: theme.colors.white200 }}
             />
             <PrimaryButton
               title='Iniciar conversa'

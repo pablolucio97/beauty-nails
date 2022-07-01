@@ -128,8 +128,8 @@ export default function Layout({ children }: LayoutProps) {
                 />
                 <HeaderLogoContainer>
                     <Logo
-                        imageUrl='/logo.png'
-                        size={headerAnimation ? 'small' : 'medium'}
+                        imageUrl='/logo.svg'
+                        size={headerAnimation ? 'small' : 'large'}
                     />
                 </HeaderLogoContainer>
                 <HeaderLinksContainer>

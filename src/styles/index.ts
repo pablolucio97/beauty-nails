@@ -31,26 +31,7 @@ export const BannerSection = styled.section`
 
 
 
-/* export const BannerSection = styled.section`
-  display: flex;
-  width: 100%;
-  min-height: 100vh;
-  @media(min-width: 1440px){
-    min-height: 100vh;
-  }
-  @media(min-width: 1080px){
-    min-height: 80vh;
-  }
-  @media(max-width: 1080px){
-    min-height: 56vh;
-  }
-  @media(max-width: 720px){
-    min-height: 32vh;
-  }
-  background-image: url("/images/bannertest.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-`; */
+
 
 export const BannerSectionContainer = styled.div`
    display: flex;
@@ -74,7 +55,7 @@ export const BannerSectionContentContainer = styled.div`
     font-size: ${({ theme }) => theme.sizes.huge}
   }
   & p {
-    color: ${({ theme }) => theme.colors.black500};
+    color: ${({ theme }) => theme.colors.white100};
     margin: -8px auto 24px;
   }
   @media (max-width: 1080px) {
@@ -82,6 +63,7 @@ export const BannerSectionContentContainer = styled.div`
     padding: 16px;
     & h1 {
       text-align: center;
+    
     }
   }
 `;
