@@ -187,7 +187,12 @@ export const GlobalStyle = createGlobalStyle`
     & span {
       color:  ${({ theme }) => theme.colors.black500};
       text-align: center;
-      margin: 8px auto -40px;
+      margin: 8px auto -24px;
+    }
+
+
+    @media(max-width: 720px) {
+      width: 100%;
     }
   }
 

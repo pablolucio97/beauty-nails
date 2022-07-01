@@ -140,7 +140,6 @@ export default function Layout({ children }: LayoutProps) {
                     <HeaderLink
                         content='Serviços'
                         url='/servicos'
-                        onClick={handleToggleDrawer}
                     />
                     <HeaderLink
                         content='Equipe'
