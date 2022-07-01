@@ -7,7 +7,4 @@ export const TextLink = styled.a`
   @media (max-width: 1080px) {
     font-size: ${({ theme }) => theme.sizes.medium};
   }
-  @media (max-width: 720px) {
-    font-size: ${({ theme }) => theme.sizes.small};
-  }
 `;

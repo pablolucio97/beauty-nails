@@ -10,7 +10,7 @@ export const Container = styled.a`
   text-align: center;
   cursor: pointer;
   @media (max-width: 720px){
-    margin: auto;
+    margin: 4px auto;
     width: 100%;
     text-align: center;
     font-size: ${({ theme }) => theme.sizes.medium};

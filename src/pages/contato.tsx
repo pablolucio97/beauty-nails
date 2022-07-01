@@ -46,10 +46,6 @@ const Contato: NextPage = () => {
                 <meta name='author' content='Pablo Silva' />
                 <meta name="theme-color" content="#000000" />
             </Head>
-            <BannerSection id='home'>
-                <BannerSectionContainer>
-                </BannerSectionContainer>
-            </BannerSection>
             <ContactSection>
                 <ContactSectionContainer>
                     <Title

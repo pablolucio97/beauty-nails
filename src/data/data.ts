@@ -1,6 +1,6 @@
 export const testimonials = [
   {
-    url: "/images/nails1.jpg",
+    url: "/images/nails5.jpg",
     name: "Roberta",
     ratings: 5,
     testimonial:
