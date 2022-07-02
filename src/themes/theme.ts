@@ -84,6 +84,7 @@ const theme = {
   },
   shadows: {
     soft: "rgba(10, 10, 10, 0.1) 0px 8px 16px -2px, rgba(10, 10, 10, 0.02) 0px 0px 0px 1px;",
+    image: "rgba(203, 150, 200, 1) 0px 8px 16px 2px, rgba(10, 10, 10, 0.02) 0px 8px 16px 2px",
   },
 };
 

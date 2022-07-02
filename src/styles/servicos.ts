@@ -49,7 +49,7 @@ export const CardsSectionContainer = styled.div`
     width: 90%;
   }
   @media (max-width: 720px) {
-    padding: 0 40px;
+    padding: 0;
   }
 `;
 

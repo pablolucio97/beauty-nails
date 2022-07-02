@@ -195,6 +195,8 @@ export const GlobalStyle = createGlobalStyle`
     }
   }
 
+ 
+
   //REACT-RESPONSIVE-CARROUSEL-CUSTOM -DOTS
    .carousel .control-dots .dot {
       -webkit-transition: opacity 0.25s ease-in;

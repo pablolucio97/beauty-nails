@@ -96,8 +96,9 @@ const Home: NextPage = () => {
             <RevealFade>
               <NextImage
                 imgUrl='/images/studio1.jpg'
-                width={400}
-                height={480}
+                width={300}
+                height={450}
+                className='imageHoverFilter'
               />
             </RevealFade>
           </IntroductionSectionImageContainer>
@@ -140,8 +141,9 @@ const Home: NextPage = () => {
             <RevealFade>
               <NextImage
                 imgUrl='/images/studio2.jpg'
-                width={400}
-                height={400}
+                width={300}
+                height={450}
+                className='imageHoverFilter'
               />
             </RevealFade>
           </StudioSectionImageContainer>

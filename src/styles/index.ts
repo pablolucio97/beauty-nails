@@ -18,13 +18,19 @@ export const Container = styled.div`
     margin: 12px auto;
   }
   }
+
+  &  .whatsappButton{
+    background-color: #25d366;
+    color: ${({ theme }) => theme.colors.white100};
+  }
+
+
 `;
 
 export const BannerSection = styled.section`
   display: flex;
   width: 100%;
   min-height: 50vh;
-  background-image: url("/images/wave.png");
   background-repeat: no-repeat;
   background-size: cover;
 `;
@@ -55,7 +61,8 @@ export const BannerSectionContentContainer = styled.div`
     font-size: ${({ theme }) => theme.sizes.huge}
   }
   & p {
-    color: ${({ theme }) => theme.colors.white100};
+    color: ${({ theme }) => theme.colors.primary};
+    font-weight: 500;
     margin: -8px auto 24px;
   }
   @media (max-width: 1080px) {
@@ -135,7 +142,7 @@ export const StudioSection = styled.section`
   width: 100%;
   min-height: 40vh;
   margin-top: -40px;
-  background-color: ${({ theme }) => theme.colors.white100};
+  background-color: ${({ theme }) => theme.colors.white200};
 `;
 
 export const StudioSectionContainer = styled.div`
