@@ -4,6 +4,12 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
+
+  &  .whatsappButton{
+    background-color: #25d366;
+    color: ${({ theme }) => theme.colors.white100};
+  }
+  
 `;
 
 export const ContactSection = styled.section`
