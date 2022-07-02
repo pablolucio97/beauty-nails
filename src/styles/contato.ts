@@ -5,11 +5,6 @@ export const Container = styled.div`
   flex-direction: column;
   width: 100%;
 
-  &  .whatsappButton{
-    background-color: #25d366;
-    color: ${({ theme }) => theme.colors.white100};
-  }
-  
 `;
 
 export const ContactSection = styled.section`
@@ -36,6 +31,10 @@ export const ContactSectionContentContainer = styled.div`
   margin: 0 auto;
   @media (max-width: 720px) {
     flex-direction: column;
+  }
+  & .whatsappButton{
+    background-color: #25d366;
+    color: ${({ theme }) => theme.colors.white100};
   }
 `;
 
