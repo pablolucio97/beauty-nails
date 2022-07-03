@@ -6,7 +6,7 @@ interface DrawerProps {
 
 const menuAnimationVertical = keyframes`
     0%{height: 0px};
-    100%{min-height: 24vh};
+    100%{min-height: 32vh};
 `;
 
 const menuAnimationHorizontal = keyframes`
