@@ -209,6 +209,7 @@ export const TestimonialsSectionContainer = styled.div`
   & h1 {
     color: ${({ theme }) => theme.colors.black100};
     font-weight: 800;
+    text-align: center;
   }
   @media (max-width: 1080px) {
     flex-direction: column;
