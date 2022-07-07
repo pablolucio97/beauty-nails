@@ -30,24 +30,24 @@ export const Container = styled.div`
 export const BannerSection = styled.section`
   display: flex;
   width: 100%;
-  min-height: 50vh;
-  background-repeat: no-repeat;
-  background-size: cover;
+  min-height: 120vh;
+  @media(max-width: 1440px){
+     min-height: 90vh;
+  } 
+  @media(max-width: 1080px){
+    min-height: 56vh;
+  }
+  @media(max-width: 720px){
+    min-height: 40vh;
+  }
 `;
 
-
-
-
-
 export const BannerSectionContainer = styled.div`
-   display: flex;
-  width: 1900px;
+  width: 100%;
   margin: 0 auto;
-  padding: 40px;
-  @media (max-width: 1080px) {
-    flex-direction: column;
-  }
-
+  background-image: url("/images/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 `;
 
 export const BannerSectionContentContainer = styled.div`

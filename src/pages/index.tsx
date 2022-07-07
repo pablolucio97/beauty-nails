@@ -55,39 +55,7 @@ const Home: NextPage = () => {
       </Head>
       <BannerSection id='home'>
         <BannerSectionContainer>
-          <BannerSectionContentContainer>
-            <GradientText
-              content='Beauty Nails'
-              direction='left-to-right'
-              initialColor={theme.colors.primary}
-              finalColor={theme.colors.primary_dark}
-            />
-            <Text
-              content='Seus pés e mãos sempre bem cuidados!'
-            />
-            <PrimaryButton
-              title='Iniciar conversa'
-              onClick={() => startChat('31985187963')}
-              ariaLabel='Iniciar conversa'
-              className='whatsappButton'
-              size='large'
-              icon={
-                <MdCall
-                  size={16}
-                  style={{
-                    marginRight: 4
-                  }}
-                />
-              }
-            />
-          </BannerSectionContentContainer>
-          <BannerSectionImageContainer>
-            <NextImage
-              height={280}
-              width={320}
-              imgUrl='/images/hand2.png'
-            />
-          </BannerSectionImageContainer>
+          <BannerSectionContentContainer />
         </BannerSectionContainer>
       </BannerSection>
       <IntroductionSection id='sobrenos'>
